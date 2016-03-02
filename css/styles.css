@@ -45,3 +45,40 @@
   padding: 20px;
   height: 200px;
   border: 2px solid black;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width:375px){
+   .container-fluid {
+    background: blue;
+  }
+  .header {
+    background: orange;
+  }
+  .nav {
+    background: white;
+  }
+  .content {
+    background: green;
+  }
+  .aside {
+    background: grey;
+  }
+
+  @media screen and (min-width:768px){
+     .container-fluid {
+      background: yellow;
+    }
+    .header {
+      background: black;
+    }
+    .nav {
+      background: pink;
+    }
+    .content {
+      background: blue;
+    }
+    .aside {
+      background: orange;
+    }
