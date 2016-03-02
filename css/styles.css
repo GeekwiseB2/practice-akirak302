@@ -45,3 +45,33 @@
   padding: 20px;
   height: 200px;
   border: 2px solid black;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (min-width:375px){
+  .footer {background: purple;}
+}
+
+@media screen and (min-width:375px){
+  .promo {background: pink;}
+}
+
+@media screen and (min-width:375px){
+  .aside {background: grey;}
+}
+
+@media screen and (min-width:375px){
+  .content {background: green;}
+}
+
+@media screen and (min-width:375px){
+  .nav {background: white;}
+}
+
+@media screen and (min-width:375px){
+  .header {background: orange;}
+}
+
+@media screen and (min-width:375px){
+  .container-fluid {background: blue;}
+}
